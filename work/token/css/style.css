@@ -907,7 +907,7 @@ header nav > a:nth-child(11):hover{background:url(../img/menu07_on.png) no-repea
 	#main .m_menu .top:after{content:""; display:block; clear:both;}
 	#main .m_menu .top .logo{float:left;}
 	#main .m_menu .top .logo img{height:25px;}
-	#main .m_menu .top .close{float:right; margin-top:5px;}
+	#main .m_menu .top .close{float:right; margin-top:5px;} 
 	#main .m_menu .top .close img{height:15px;}
 	#main .m_menu .rang{background:#021942; text-align:Center; padding:16px 0;}
 	#main .m_menu .rang a{line-height:15px; font-size:15px; color:#fff; padding: 0 20px; position:relative; display:inline-block;}
