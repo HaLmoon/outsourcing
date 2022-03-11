@@ -41,7 +41,8 @@
   "description": "외주 관리",
   "main": "gulpfile.babel.js",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "brew": "0.0.8"
   },
   "repository": {
     "type": "git",

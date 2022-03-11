@@ -120,9 +120,9 @@ header nav > a:nth-child(11):hover{background:url(../img/menu07_on.png) no-repea
 .trade_wrap .right .row{display: inline-block; background:#3b3d4e; width: auto; flex: 1;  border:1px solid #434454; padding:10px; /* margin-bottom:10px; */ box-shadow:3px 3px 10px #343645; overflow:hidden; border-radius:7px; margin-right: 10px;}
 .trade_wrap .right .row:nth-child(5) {margin: 0 !important;}
 .trade_wrap .right .row p{color:#fff; font-size:14px;}
-.trade_wrap .right .row p.money-inline {display: inline-block; width: 10%;}
+.trade_wrap .right .row p.money-inline {display: inline-block; width: 10%;  padding-right: 5px;}
 .trade_wrap .right .row span{ margin-top:10px;}
-.trade_wrap .right .row span.money-inline {display: inline-flex; align-items: center;  width: 89%; margin-top: 0;}
+.trade_wrap .right .row span.money-inline {display: inline-flex; align-items: center;  width: 89%; margin-top: 0; }
 .trade_wrap .right .row span.money-inline input {flex: 1;}
 .trade_wrap .right .row span font{color:#8f8f9d; font-size:15px; display:inline-block; line-height:16px; margin-left:3px; font-weight:500; letter-spacing:-0.05em;}
 .trade_wrap .right .row.sum span font{color:#308dea; font-weight:700;}
@@ -765,9 +765,9 @@ header nav > a:nth-child(11):hover{background:url(../img/menu07_on.png) no-repea
 	.trade_wrap .right .row p.money-inline {display: inline-block; vertical-align: middle; margin-right: 5px;}
 	body{width:100%;}
 	
-	header{z-index:1; top:104px; background-color: transparent; width: 100%; height:calc(100% - 100.05px); left:-100%; overflow-y: scroll;}
+	header{z-index:1; bottom: 0; top: 112px;  position: absolute;  background-color: transparent; width: 100%;  left:-100%; overflow-y: scroll;}
 	header h1{display:none; }
-	header nav{padding:10px 0; border:0;  }
+	header nav{padding:10px 0; border:0; position: absolute; top: 0; bottom: 0; }
 	
 	
 	.trade_wrap .right .row.profit .percent em {font-size: 18px; }
